@@ -22,7 +22,7 @@ function CampusEventsForm() {
     eventDate: "",
     location: "",
     contactInfo: "",
-  };
+  };  
 
   return (
     <BaseForm

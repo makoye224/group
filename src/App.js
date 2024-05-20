@@ -27,7 +27,7 @@ function App() {
     <AuthContext.Provider value={{ user, setUser }}>
     <>
       <BrowserRouter>
-      <Header/>
+      {user && <Header/> }
       <div class="container mx-auto">
       <FeedButtons/>
       <Routes>
